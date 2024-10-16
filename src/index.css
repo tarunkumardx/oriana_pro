@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+}
+.navBar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background: linear-gradient(
+    67deg,
+    rgba(255, 251, 234, 0.7) 0%,
+    rgba(255, 241, 205, 0.4) 100%
+  );
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+  padding-top: 1rem;
+  z-index: 999;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  letter-spacing: -0.8px;
+  font-size: 14px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+}
+
+.logo {
+  width: 14rem;
+}
+.navCard {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px 5px;
+  display: flex;
+  font-size: 12px;
+  letter-spacing: -0.8px;
+}
+
+.navCard .btn {
+  padding: 0 5px;
+}
+.navCard .btn:nth-child(1) {
+  border-right: 1px solid gray;
+}
+.navCard .btn span {
+  color: #4e973b;
+  font-size: 10px;
+}
+.navCard .btn .headline {
+  color: gray;
+  font-size: 10px;
+}
+
+.mainBannerText {
+  font-size: 48px;
+  position: absolute;
+  top: 70%;
+  color: white;
+  padding-left: 6rem;
+}
+.mainBannerText span {
+  font-weight: 800;
+  color: #fcc400;
+}
