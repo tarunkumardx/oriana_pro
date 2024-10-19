@@ -6,8 +6,10 @@ const Header = () => {
     <>
       <div className="navBar">
         <nav>
-          <img src={logo} alt="" className="logo" />
-          <ul class="list">
+          <a href="/" style={{ cursor: "pointer" }}>
+            <img src={logo} alt="" className="logo" />
+          </a>
+          <ul className="list">
             <li>
               <strong>Home</strong>
             </li>
