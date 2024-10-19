@@ -5,6 +5,7 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import V2 from "./V2.jsx";
+import V3 from "./V3.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/v2",
     element: <V2 />,
+  },
+  {
+    path: "/v3",
+    element: <V3 />,
   },
 ]);
 

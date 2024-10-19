@@ -1,4 +1,3 @@
-import React from "react";
 import { hamburgerMenu, logo } from "../assets";
 
 const Header = () => {
