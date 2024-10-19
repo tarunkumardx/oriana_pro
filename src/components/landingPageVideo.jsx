@@ -1,5 +1,3 @@
-import React from "react";
-
 const LandingPageVideo = () => {
   return (
     <div style={{ position: "relative", overflow: "hidden" }}>

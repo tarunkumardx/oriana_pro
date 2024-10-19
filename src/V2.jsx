@@ -3,16 +3,16 @@ import Header from "./components/header";
 // import LandingPageVideo from "./components/landingPageVideo";
 import LandingPageVideoSlider from "./components/landingPageVideoSlider";
 
-function App() {
+function V2() {
   return (
     <>
       <div>
         <Header />
-        <LandingPageVideoSlider />
+        <LandingPageVideoSlider bg={"rgb(12 12 12 / 55%)"} />
         <img src={oriana} alt="okd" width="100%" />
       </div>
     </>
   );
 }
 
-export default App;
+export default V2;
