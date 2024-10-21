@@ -2,12 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import {
-  mainBannerVid1,
-  mainBannerVid2,
-  mainBannerVid3,
-  mainBannerVid4,
-} from "../assets";
+import { mainBannerVid1, mainBannerVid2, mainBannerVid3 } from "../assets";
 // eslint-disable-next-line react/prop-types
 const LandingPageVideoSlider2 = ({ bg }) => {
   return (
