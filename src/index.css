@@ -11,8 +11,8 @@ body {
   backdrop-filter: blur(3px);
   background: linear-gradient(
     67deg,
-    rgba(255, 251, 234, 0.7) 0%,
-    rgba(255, 241, 205, 0.7) 100%
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 100%
   );
   top: 0;
   overflow: hidden;

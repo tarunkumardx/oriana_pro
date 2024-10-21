@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import {
@@ -13,7 +13,11 @@ const LandingPageVideoSlider2 = ({ bg }) => {
   return (
     <Swiper
       navigation={true}
-      modules={[Navigation]}
+      modules={[Autoplay, Navigation]}
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: false,
+      }}
       className="mySwiper"
       style={{
         "--swiper-navigation-color": "#fff",
@@ -105,7 +109,9 @@ const LandingPageVideoSlider2 = ({ bg }) => {
         >
           <source
             // src="https://www.shutterstock.com/shutterstock/videos/1102103721/preview/stock-footage-white-tanks-with-liquid-hydrogen-and-oxygen-in-factory-yard-d-animation.webm"
-            src={mainBannerVid4}
+            src={
+              "https://www.shutterstock.com/shutterstock/videos/1102103721/preview/stock-footage-white-tanks-with-liquid-hydrogen-and-oxygen-in-factory-yard-d-animation.webm"
+            }
             type="video/webm"
           />
           Your browser does not support the video tag.

@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -8,7 +8,11 @@ const LandingPageVideoSlider = ({ bg }) => {
   return (
     <Swiper
       navigation={true}
-      modules={[Navigation]}
+      modules={[Autoplay, Navigation]}
+      autoplay={{
+        delay: 4000,
+        disableOnInteraction: false,
+      }}
       className="mySwiper"
       style={{
         "--swiper-navigation-color": "#fff",
