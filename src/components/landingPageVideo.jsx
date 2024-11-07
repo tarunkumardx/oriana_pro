@@ -1,30 +1,37 @@
+import { TypeAnimation } from "react-type-animation";
+import { mainBannerCombined } from "../assets";
+import { FaArrowRight } from "react-icons/fa";
+
 const LandingPageVideo = () => {
+
   return (
-    <div style={{ position: "relative", overflow: "hidden" }}>
-      <video
-        style={{
-          width: "100%",
-          height: "100vh", // or "100vh" for full height
-          objectFit: "cover",
-        }}
-        autoPlay
-        muted
-        loop
-      >
-        {/* <source
-          src="https://www.shutterstock.com/shutterstock/videos/1090773539/preview/stock-footage-ecology-solar-power-station-panels-in-the-fields-green-energy-at-sunset-landscape-electrical.webm"
-          type="video/webm"
-        /> */}
-        <source
-          src="https://www.shutterstock.com/shutterstock/videos/3445162319/preview/stock-footage-solar-panels-on-a-farm-rooftop-display-power-levels-harnessing-energy-sustainably-in-the-usa.webm"
-          type="video/webm"
-        />
+ <div className="video-container" style={{ position: 'relative', overflow: 'hidden' }}>
+      <video className="background-video" autoPlay muted loop>
+        <source src={mainBannerCombined} type="video/webm" />
         Your browser does not support the video tag.
       </video>
-      <div className="mainBannerText">
-        Goal - <span> Expand REnewable</span>
-        <br />
-        <span>Energy </span>capacity to <strong>10 GW by 2030.</strong>
+      <div className="overlay"></div>
+      <div className="content">
+      <TypeAnimation
+      sequence={[
+        'Goal - Expand REnewable Energy capacity to 10 GW by 2030', 
+        5000,
+        'Revolutionizing Energy Storage for a Greener Tomorrow', 
+        5000,
+        'Fueling the Future with Compressed Biogas Solutions', 
+        5000,
+        'Empowering Tomorrow with Sustainable Green Hydrogen Energy', 
+      ]}
+      deletionSpeed={100}
+      wrapper="h2"
+      cursor={true}
+      repeat={Infinity}
+      style={{ maxWidth: '900px', display: 'inline-block' }}
+    />
+    <p>India’s Leading Manufacturer of Power Generation & Power Distribution Equipment’s with over 50 years of Trust & Reliability</p>
+
+    <button className="viewMore"> View More <div className="arrow">
+    <FaArrowRight /></div></button>
       </div>
     </div>
   );
