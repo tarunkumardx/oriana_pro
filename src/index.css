@@ -177,7 +177,7 @@ li {
   border-radius: 50px;
   min-width: 200px;
   text-align: left;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   font-weight: 400;
   font-size: 18px;
   display: flex;

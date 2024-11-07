@@ -16,19 +16,20 @@ const LandingPageVideo = () => {
       sequence={[
         'Goal - Expand REnewable Energy capacity to 10 GW by 2030', 
         5000,
-        'Revolutionizing Energy Storage for a Greener Tomorrow', 
+        'Goal - Expand REnewable Energy capacity to 10 GW by 2030', 
         5000,
-        'Fueling the Future with Compressed Biogas Solutions', 
+        'Goal - Expand REnewable Energy capacity to 10 GW by 2030', 
         5000,
-        'Empowering Tomorrow with Sustainable Green Hydrogen Energy', 
+        'Goal - Expand REnewable Energy capacity to 10 GW by 2030', 
       ]}
       deletionSpeed={100}
+      speed={60}
       wrapper="h2"
       cursor={true}
       repeat={Infinity}
       style={{ maxWidth: '900px', display: 'inline-block' }}
     />
-    <p>India’s Leading Manufacturer of Power Generation & Power Distribution Equipment’s with over 50 years of Trust & Reliability</p>
+    {/* <p>India’s Leading Manufacturer of Power Generation & Power Distribution Equipment’s with over 50 years of Trust & Reliability</p> */}
 
     <button className="viewMore"> View More <div className="arrow">
     <FaArrowRight /></div></button>
