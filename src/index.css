@@ -216,6 +216,6 @@ li {
   }
 }
 
-.viewMore:hover .arrow svg {
+/* .viewMore:hover .arrow svg {
   animation: arrowAnimation 1s ease-in-out; 
-}
+} */
