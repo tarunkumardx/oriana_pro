@@ -143,7 +143,7 @@ li {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  background-color: #0000001f; /* Semi-transparent black */
   z-index: 1; /* Overlay should sit above the video */
 }
 
@@ -183,6 +183,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: transform 0.3s ease;
 }
 
 .arrow {
@@ -195,4 +196,26 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrow svg {
+  transition: transform 0.5s ease-in-out;
+}
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.viewMore:hover .arrow svg {
+  animation: arrowAnimation 1s ease-in-out; 
 }
