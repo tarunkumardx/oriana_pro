@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import V2 from "./V2.jsx";
 import V3 from "./V3.jsx";
 import V4 from "./V4.jsx";
+import V5 from "./V5.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/v4",
     element: <V4 />,
+  },
+  {
+    path: "/v5",
+    element: <V5 />,
   },
 ]);
 
