@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 const LandingPageVideo2 = () => {
 
   return (
- <div className="video-container" style={{ position: 'relative', overflow: 'hidden' }}>
+ <div className="video-container2" style={{ position: 'relative', overflow: 'hidden' }}>
       <video className="background-video" autoPlay muted loop>
         <source src={mainBannerCombined1} type="video/webm" />
         Your browser does not support the video tag.

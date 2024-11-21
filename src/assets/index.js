@@ -4,6 +4,7 @@ import oriana3 from "./images/oriana3.png";
 
 import logo from "./images/logo.png";
 import hamburgerMenu from "./images/hamburgerMenu.png";
+import header from "./images/header.png";
 
 import mainBannerVid1 from "./videos/mainBannerVid1.mp4";
 import mainBannerVid2 from "./videos/mainBannerVid2.mp4";
@@ -18,6 +19,7 @@ export {
   oriana2,
   oriana3,
   logo,
+  header,
   hamburgerMenu,
   mainBannerVid1,
   mainBannerVid2,

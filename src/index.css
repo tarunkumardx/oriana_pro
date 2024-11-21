@@ -4,6 +4,12 @@ body {
   font-family: "Montserrat", serif;
   font-weight: 500;
 }
+.headerImg{
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  backdrop-filter: blur(10px);
+}
 .navBar {
   position: fixed;
   z-index: 5;
@@ -115,6 +121,14 @@ li {
 
 
 /*  */
+
+.video-container2 {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 105px);
+  overflow: hidden;
+  margin-top: 105px;
+}
 
 .video-container {
   position: relative;
