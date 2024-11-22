@@ -26,7 +26,7 @@ const LandingPageVideo2 = () => {
       deletionSpeed={100}
       speed={60}
       wrapper="h2"
-      cursor={true}
+      cursor={false}
       repeat={Infinity}
       style={{ maxWidth: '900px', display: 'inline-block' }}
     />
