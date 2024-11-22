@@ -1,6 +1,7 @@
 import oriana from "./images/oriana.png";
 import oriana2 from "./images/oriana2.png";
 import oriana3 from "./images/oriana3.png";
+import oriana4 from "./images/oriana4.png";
 
 import logo from "./images/logo.png";
 import hamburgerMenu from "./images/hamburgerMenu.png";
@@ -18,6 +19,7 @@ export {
   oriana,
   oriana2,
   oriana3,
+  oriana4,
   logo,
   header,
   hamburgerMenu,
